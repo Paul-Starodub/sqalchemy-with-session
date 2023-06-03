@@ -1,5 +1,5 @@
 from models import User, Comment
-from sqlalchemy.orm import Session
+from main import Session
 from connect import engine
 
 
