@@ -1,6 +1,6 @@
-from persisting import session  # write many users because this import
+from main import session
 from models import User, Comment
-from sqlalchemy import select
+# from sqlalchemy import select
 
 
 # statement = select(User).where(User.username.in_(["Paul", "John"]))  # cause 1
